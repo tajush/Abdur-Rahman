@@ -1,0 +1,195 @@
+[
+  {
+    "showPost": true,
+    "id": "senior-devops-engineer",
+    "jobTitle": "Senior DevOps Engineer",
+    "jobCategory": "Software Development",
+    "jobObjective": "We’re looking for a senior devops engineer to join our team.",
+    "jobLocation": "Canada",
+    "jobSchedule": "Full Time",
+    "jobType": "Remote",
+    "vacancyPosition": 1,
+    "jobLink": "https://docs.google.com/forms/d/e/1FAIpQLSf_pEwbWRzL2rjN1vPmYvhH68CTzbMH5BuN6ixsl0k6jCtpDQ/viewform",
+    "jobSpecifications": {
+      "experience": "5+ years",
+      "employeeType": "Permanent",
+      "position": "Senior",
+      "offeredSalary": "$130K - $150K"
+    },
+    "jobDescription": "We are looking for a highly skilled Senior DevOps Engineer to play a pivotal role in optimizing our software development lifecycle (SDLC). We are building a strong DevOps culture that emphasizes collaboration, automation, and continuous delivery.<br>In this role, you will be responsible for leading and driving DevOps initiatives across the organization. You will work closely with developers, QA engineers, and IT operations to streamline processes, implement automation tools, and ensure the smooth deployment and management of our applications.",
+    "responsibilities": [
+      "Conducting + managing Releases in conjunction with QA who will be doing UAT testing.",
+      "Reverting releases if needed.",
+      "Managing, designing, implementing improvements to our CI/CD process.",
+      "Managing our IaC definitions.",
+      "Working with the backend team to design and implement infrastructure for new services and product.",
+      "Designing, implementing, and maintaining developer environments.",
+      "Designing and managing alerting + alarms coming from our observability platforms (AWS CloudWatch, Datadog)",
+      "Load testing, understanding load and performance limits or our infrastructure, configuring our infrastructure to optimize efficiency."
+    ],
+    "requirements": [
+      "4+ years software engineering experience with 1+ years in a platform or devops focused role.",
+      "AWS, GCP, or Azure experience.",
+      "Networking knowledge sufficient to understand jumphost + vpc + microservice architecture.",
+      "Shell scripting.",
+      "Basic Linux knowledge.",
+      "Understanding of different datastores (relational, NoSQL, Redis, key/value, etc.)",
+      "Experience with some monitoring / observability platforms like datadog, new relic, sentry, CloudWatch, Grafana, etc.",
+      " Strong written English communication skills.",
+      "Strong organizational skills.",
+      "Docker."
+    ],
+    "qualifications": [
+      "Familiarity with microservices architecture and RESTful API design principles.",
+      "Contributions to open-source projects or participation in developer communities.",
+      "Have already graduated or are currently in any year of study.",
+      "Advanced degree or equivalent experience in graphic and web design."
+    ],
+    "workingHours": "10 AM - 7 PM",
+    "workingDays": [
+      "Weekly: 5 days.",
+      "Weekend: Saturday, Sunday."
+    ],
+    "compensationAndOtherBenefits": [
+      "Performance bonus",
+      "Weekly 2 holidays",
+      "Salary Review: Yearly",
+      "Festival Bonus: 2",
+      "Flexible working hours and friendly environment",
+      "Opportunity to work with the global team"
+    ],
+    "overview": {
+      "jobTitle": "Senior DevOps Engineer",
+      "experience": "5+ years",
+      "location": "Canada",
+      "offeredSalary": "$130K - $150K",
+      "qualification": "Bachelor Degree",
+      "jobPosted": "April 04, 2024"
+    }
+  },
+  {
+    "showPost": false,
+    "id": "senior-backend-developer",
+    "jobTitle": "Senior Backend Developer",
+    "jobCategory": "Software Development",
+    "jobObjective": "We’re looking for a mid-level product designer to join our team.",
+    "jobLocation": "Canada",
+    "jobSchedule": "Full Time",
+    "jobType": "Hybrid",
+    "vacancyPosition": 1,
+    "jobLink": "https://docs.google.com/forms/d/e/1FAIpQLSfUJk1wvyODg65avJExBVN2lAO_att2mpF0iO16OOBu4vEb0g/viewform",
+    "jobSpecifications": {
+      "experience": "5+ years",
+      "employeeType": "Permanent",
+      "position": "Mid-level",
+      "offeredSalary": "20K-30K+ 10% commission"
+    },
+    "jobDescription": "As a Product Designer, you will work within a Product Delivery Team fused with UX, engineering, product, and data talent. You will help the team design beautiful interfaces that solve business challenges for our clients. We work with a number of Tier 1 banks on building web-based applications for AML, KYC, and Sanctions List management workflows. This role is ideal if you are looking to segue your career into the FinTech or Big Data arenas.",
+    "responsibilities": [
+      "Have sound knowledge of commercial activities.",
+      "Build next-generation web applications with a focus on the client side.",
+      "Work on multiple projects at once, and consistently meet draft deadlines.",
+      "Have already graduated or are currently in any year of study.",
+      "Revise the work of previous designers to create a unified aesthetic for our brand materials."
+    ],
+    "requirements": [
+      "Bachelor’s degree in Business, Marketing, or a related field.",
+      "Preferred experience in online bidding and business development, preferably in a digital agency or IT services company.",
+      "Excellent written and verbal communication skills.",
+      "Strong negotiation and persuasion abilities.",
+      "Ability to work independently and manage multiple projects simultaneously.",
+      "Proficiency in using online bidding platforms and project management tools."
+    ],
+    "qualifications": [
+      "B.C.A / M.C.A under National University course complete.",
+      "3 or more years of professional design experience.",
+      "Have already graduated or are currently in any year of study.",
+      "Advanced degree or equivalent experience in graphic and web design."
+    ],
+    "workingHours": "8 PM - 3 AM (Night Shift)",
+    "workingDays": [
+      "Weekly: 5 days.",
+      "Weekend: Saturday, Sunday."
+    ],
+    "compensationAndOtherBenefits": [
+      "Performance bonus",
+      "Weekly 2 holidays",
+      "Salary Review: Yearly",
+      "Festival Bonus: 2",
+      "Flexible working hours and friendly environment",
+      "Opportunity to work with the global team"
+    ],
+    "overview": {
+      "jobTitle": "Frontend Designer",
+      "experience": "At least 5 years",
+      "location": "Canada",
+      "offeredSalary": "$60K - $80K",
+      "qualification": "Bachelor Degree",
+      "jobPosted": "November 02, 2021"
+    }
+  },
+  {
+    "showPost": true,
+    "id": "sales-marketing",
+    "jobTitle": "Sales and Marketing(Lead)",
+    "jobCategory": "Sales",
+    "jobObjective": "We’re looking for a sales and marketing(lead) to join our team.",
+    "jobLocation": "Canada",
+    "jobSchedule": "Full Time",
+    "jobType": "Hybrid",
+    "vacancyPosition": 1,
+    "jobLink": "https://docs.google.com/forms/d/e/1FAIpQLSfUJk1wvyODg65avJExBVN2lAO_att2mpF0iO16OOBu4vEb0g/viewform",
+    "jobSpecifications": {
+      "experience": "5+ years",
+      "employeeType": "Permanent",
+      "position": "Mid-level",
+      "offeredSalary": "20K-30K"
+    },
+    "jobDescription": "We are looking for a highly skilled Senior Sales person in Canada to play a pivotal role in our marketing in Canada. software development lifecycle (SDLC). As a Sales Person specialising in lead generation in Canada, you'll spearhead our growth efforts in a dynamic market. Your role is pivotal in identifying and qualifying leads across diverse industries and regions, leveraging your expertise to engage prospects and nurture them through the sales funnel. Collaborating closely with the marketing team, you'll optimise lead generation campaigns for maximum impact. Your understanding of Canadian market trends, customer needs, and competition will drive new business opportunities and maintain our competitive edge.",
+    "responsibilities": [
+      "Conduct research to identify potential leads and prospects within the Canadian market.",
+      "Generate new business opportunities through outbound calls, emails, and networking.",
+      "Qualify leads based on criteria such as budget, timeline, and decision-making authority.",
+      "Collaborate with the sales team to develop effective strategies for lead conversion.",
+      "Maintain accurate records of all interactions and activities in the CRM system.",
+      "Stay updated on industry trends and market conditions to identify new opportunities."
+    ],
+    "requirements": [
+      "Bachelor's degree in Marketing, Business Administration, or a related field.",
+      "Proven experience in lead generation, preferably in a B2B environment.",
+      "Strong understanding of lead generation tactics and best practices.",
+      "Proficiency in using CRM software and marketing automation tools.",
+      "Excellent communication and interpersonal skills.",
+      "Ability to work independently and as part of a team in a fast-paced environment.",
+      "Must be legally eligible to work in Canada."
+    ],
+    "qualifications": [
+      "Knowledge of SEO, SEM, and other digital marketing techniques.",
+      "Experience in the technology or software industry.",
+      "Familiarity with Canadian market trends and dynamics.",
+      "Experience with data analysis and reporting tools."
+    ],
+    "workingHours": "8 PM - 3 AM (Night Shift)",
+    "workingDays": [
+      "Weekly: 5 days.",
+      "Weekend: Saturday, Sunday."
+    ],
+    "compensationAndOtherBenefits": [
+      "Performance bonus",
+      "Weekly 2 holidays",
+      "Salary Review: Yearly",
+      "Festival Bonus: 2",
+      "Flexible working hours and friendly environment",
+      "Opportunity to work with the global team"
+    ],
+    "overview": {
+      "jobTitle": "Sales and Marketing(Lead)",
+      "experience": "5+ years",
+      "location": "Canada",
+      "offeredSalary": "20K-30K + 10% commission(based on target)",
+      "qualification": "Bachelor Degree",
+      "jobPosted": "May 21, 2024"
+    }
+  }
+
+]

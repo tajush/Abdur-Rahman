@@ -1,0 +1,24 @@
+.cases-card{
+    background-color: #edf8f8;
+    transition: all 0.4s linear;
+}
+
+.cases-card:hover{
+    background-color: #ffff;
+    box-shadow: 0px 8px 16px 0px #c1ecec;
+    transition: all 0.4s linear;
+}
+
+.cases-card:hover h2{
+    text-decoration: underline;
+    transition: all 0.4s linear;
+}
+
+.case-icon{
+    filter: grayscale(100%);
+    transition: filter 0.3s ease;
+}
+
+.cases-card:hover .case-icon{
+    filter: grayscale(0%);
+}

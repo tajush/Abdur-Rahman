@@ -1,0 +1,480 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    scroll-behavior: smooth;
+  }
+
+  /* Scroll */
+  .scroll-mt{
+    scroll-margin-top: 40px;
+  }
+
+/* bg */
+.bg-primary{
+    background: linear-gradient(302deg, #F8523B 0.82%, #FBAFA4 40.77%, #FFF1DB 69.99%);
+}
+
+.bg-secondary{
+    background: var(--Gradient-Brand, linear-gradient(286deg, #DC513E 12.4%, #ED8173 49.04%, #E3BA7D 90.17%));
+}
+
+/* Swiper */
+.swiper-wrapper{
+    transition-timing-function: linear !important;
+    padding: 10px 0
+}
+
+
+.testimonial .swiper-wrapper{
+    padding: 55px 0
+}
+
+.testimonial .swiper-pagination{
+    top: 95% !important;
+    /* left: -44% !important; */
+}
+
+.testimonial .swiper-pagination-bullet{
+    background: transparent !important;
+    border: 2px solid #146476;
+    width: 18px !important;
+    height: 18px !important;
+    opacity: 0.6;
+}
+
+.testimonial .swiper-pagination-bullet-active{
+    background: #146476 !important;
+    opacity: 1
+}
+
+/* @media screen and (max-width: 542px){
+    .testimonial .swiper-pagination{
+        top: 90% !important;
+        left: -40% !important;
+    }
+} */
+
+/* Team testimonial */
+.team-testimonial .swiper-pagination-bullet{
+    background: transparent !important;
+    border: 2px solid #146476;
+    width: 18px !important;
+    height: 18px !important;
+    opacity: 0.6;
+}
+
+.team-testimonial .swiper-pagination-bullet-active{
+    background: #146476 !important;
+    opacity: 1
+}
+
+/* Hire testimonial */
+.hire-testimonial .swiper-pagination{
+    top: 92% !important;
+    left: 0 !important
+}
+
+/* Shine animation */
+.shine {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .shine::before {
+    position: absolute;
+	top: 0;
+	left: -75%;
+	z-index: 2;
+	display: block;
+	content: '';
+	width: 50%;
+	height: 100%;
+	background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);
+	background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);
+	-webkit-transform: skewX(-25deg);
+	transform: skewX(-25deg);
+  }
+
+  .shine:hover::before {
+    -webkit-animation: shine .8s;
+	animation: shine .8s;
+  }
+
+  @-webkit-keyframes shine {
+	100% {
+		left: 125%;
+	}
+}
+@keyframes shine {
+	100% {
+		left: 125%;
+	}
+}
+
+/* Flash animation */
+.flash-animation:hover img {
+	opacity: 1;
+	-webkit-animation: flash 1.5s;
+	animation: flash 1.5s;
+}
+@-webkit-keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+  /* Mega menu */
+.mega-menu {
+    opacity:0;
+    visibility:hidden;
+    z-index: -900;
+    margin-top: 15px;
+    left: 0;
+    position: absolute;
+    text-align: left;
+    width: 100%;
+    transition: all 0.15s linear 0s;
+    border-radius: 20px;
+    background: white;
+    box-shadow: 0px 8px 16px 0px rgba(255, 188, 183, 0.60);
+  }
+  
+  
+  
+  /* #hoverable Class Styles */
+  .hoverable {
+    position: static;
+    padding: 15px 0;
+  }
+  
+  .hoverable:hover .mega-menu {
+    opacity:1;
+    visibility:visible;
+    z-index: 900;
+  }
+  
+  /* Mega menu */
+  
+@layer components{
+    /* Custom class */
+    .hero-section-title {
+        @apply font-jost lg:text-[45px] text-[32px] lg:text-left text-center lg:leading-[60px] leading-[35px] text-dark-black font-medium mb-6 capitalize
+    }
+    .title-primary{
+        @apply text-center lg:text-[42px] text-2xl lg:leading-[54px] leading-7 capitalize font-jost font-medium text-dark-black
+    }
+
+    .subtitle-primary{
+        @apply font-poppins text-gray
+    }
+
+    .chips{
+        @apply border border-gray-light rounded-md px-2.5 py-1 text-sm font-poppins text-gray bg-transparent hover:bg-gray hover:text-white transition-all
+    }
+
+    .case-studies-chips{
+        @apply border border-primary-color rounded-full px-4 py-2 text-base font-poppins text-black bg-transparent hover:bg-primary-color hover:text-white transition-all
+    }
+      
+}
+
+/* Primary button */
+.primary-btn {
+    position: relative;
+    display: inline-block;
+    padding: 14px 28px;
+    background-color: transparent; /* Background is transparent by default */
+    color: white; /* Text color when background is transparent */
+    font-size: 16px;
+    border: 2px solid #146476;
+    border-radius: 4px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.primary-btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #146476;
+    z-index: 0;
+    transition: transform 0.5s ease-in-out;
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+.primary-btn:hover::before {
+    transform: scaleX(0);
+    /* transform-origin: right; */
+}
+
+.primary-btn:hover {
+    color: black; /* Text color when background is transparent */
+}
+
+.primary-btn span {
+    position: relative;
+    z-index: 1;
+}
+
+
+/* Secondary button */
+.secondary-btn {
+    position: relative;
+    display: inline-block;
+    padding: 14px 28px;
+    background-color: transparent; /* Background is transparent by default */
+    color: white; /* Text color when background is transparent */
+    font-size: 16px;
+    border: 2px solid #F8523B;
+    border-radius: 4px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.secondary-btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #F8523B;
+    z-index: 0;
+    transition: transform 0.5s ease-in-out;
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+.secondary-btn:hover::before {
+    transform: scaleX(0);
+}
+
+.secondary-btn:hover {
+    color: black; /* Text color when background is transparent */
+}
+
+.secondary-btn span {
+    position: relative;
+    z-index: 1;
+}
+
+
+
+/* Outline button */
+.outline-btn {
+    position: relative;
+    display: inline-block;
+    padding: 14px 28px;
+    background-color: transparent;
+    color: black;
+    font-size: 16px;
+    border: 2px solid #F8523B;
+    border-radius: 4px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.outline-btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #F8523B;
+    z-index: 0;
+    transition: transform 0.5s ease-in-out;
+    transform: scaleX(0);
+    transform-origin: left;
+}
+
+.outline-btn:hover::before {
+    transform: scaleX(1);
+}
+
+.outline-btn:hover {
+    color: white;
+}
+
+.outline-btn span {
+    position: relative;
+    z-index: 1;
+}
+
+/* Newsletter button */
+.newsletter-btn {
+    position: relative;
+    display: inline-block;
+    padding: 14px 28px;
+    background-color: transparent; /* Background is transparent by default */
+    color: white; /* Text color when background is transparent */
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.newsletter-btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    z-index: 0;
+    transition: transform 0.5s ease-in-out;
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+.newsletter-btn:hover::before {
+    transform: scaleX(0);
+}
+
+.newsletter-btn:hover {
+    color: white; /* Text color when background is transparent */
+}
+
+.newsletter-btn span {
+    position: relative;
+    z-index: 1;
+}
+
+.form-shadow{
+    /* border-radius: 20px; */
+background: var(--white, #FFF);
+
+/* Shadow hard 02 */
+box-shadow: 0px 8px 16px 0px rgba(255, 188, 183, 0.60);
+}
+
+/* version button */
+.outline-btn-v2 {
+    border-radius: 4px;
+    position: relative;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    border: 2px solid #F8523B;
+    padding: 1rem 2rem;
+    background-size: 300%;
+    transition: all 0.6s;
+    color: black;
+    background-image: linear-gradient(160deg, white 50%, #F8523B 50%);
+  }
+
+ 
+  .outline-btn-v2:hover {
+    color: #fff;
+    background-position: 100%;
+    transform: translateX(0.5rem);
+  }
+  
+  .outline-btn-v2:active {
+    transform: translate(0.5rem, 0.5rem);
+    box-shadow: 0px 10px 20px -15px rgba(0, 0, 0, 0.75);
+  }
+  
+  .primary-btn-v2 {
+    border-radius: 4px;
+    position: relative;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #F8523B;
+    padding: 1rem 2rem;
+    background-size: 300%;
+    transition: all 0.6s;
+    color: white;
+    background-image: linear-gradient(160deg, #F8523B 50%, transparent 50%);
+    background-position: 0%;
+}
+
+.primary-btn-v2:hover {
+    color: black;
+    background-position: 100%;
+    transform: translateX(0.5rem);
+}
+
+.primary-btn-v2:active {
+    transform: translate(0.5rem, 0.5rem);
+    box-shadow: 0px 10px 20px -15px rgba(0, 0, 0, 0.75);
+}
+
+
+.secondary-btn-v2 {
+    border-radius: 4px;
+    position: relative;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #146476;
+    padding: 1rem 2rem;
+    background-size: 300%;
+    transition: all 0.6s;
+    color: white;
+    background-image: linear-gradient(160deg, #146476 50%, transparent 50%);
+    background-position: 0%;
+}
+
+.secondary-btn-v2:hover {
+    color: black;
+    background-position: 100%;
+    transform: translateX(0.5rem);
+}
+
+.secondary-btn-v2:active {
+    transform: translate(0.5rem, 0.5rem);
+    box-shadow: 0px 10px 20px -15px rgba(0, 0, 0, 0.75);
+}
+
+
+.newsletter-btn-v2 {
+    border-radius: 4px;
+    position: relative;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    padding: 1rem 2rem;
+    background-size: 300%;
+    transition: all 0.6s;
+    color: white;
+    background-image: linear-gradient(160deg, black 50%, transparent 50%);
+    background-position: 0%;
+}
+
+.newsletter-btn-v2:hover {
+    color: white;
+    background-position: 100%;
+    transform: translateX(0.5rem);
+}
+
+.newsletter-btn-v2:active {
+    transform: translate(0.5rem, 0.5rem);
+    box-shadow: 0px 10px 20px -15px rgba(0, 0, 0, 0.75);
+}

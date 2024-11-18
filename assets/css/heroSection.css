@@ -1,0 +1,14 @@
+.bg-primary{
+    background: #edf8f8;
+}
+
+.dot {
+    transition: transform 0.2s;
+  }
+  .translate-x-full {
+    transform: translateX(100%);
+  }
+
+  .bg-secondary{
+    background: linear-gradient(302deg, #F8523B 0.82%, #FBAFA4 40.77%, #FFF1DB 69.99%);
+  }

@@ -1,0 +1,23 @@
+.cost-left-card{
+    background: #FFF3F1;
+    background-image: url('~/assets/img/web-development/cost-time-left-style.svg');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    height: 400px;
+}
+
+.cost-right-card{
+    background: #FFE5E1;
+    background-image: url('~/assets/img/web-development/cost-time-right-style.svg');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    height: 400px;
+}
+
+.subscription-card{
+    background: #FF725E;
+    background-image: url('~/assets/img/web-development/subscription-card-style.svg');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    height: 400px;
+}

@@ -1,0 +1,16 @@
+.provide-solution-card{
+    box-shadow: 0px 8px 16px 0px #c1ecec;
+    padding: 40px 20px;
+    transition: all 0.4s linear;
+    border-radius: 20px;
+}
+
+.provide-solution-card:hover{
+    background: white;
+    transition: all 0.4s linear;
+}
+
+.provide-solution-card:hover h2{
+    text-decoration: underline;
+    transition: all 0.4s linear;
+}
